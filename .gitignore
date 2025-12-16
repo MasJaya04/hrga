@@ -1,0 +1,75 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+# Uncomment the line below if you wish to ignore all VS Code settings.
+#.vscode/
+
+# --------------------
+# Flutter/Dart/Pub related
+# --------------------
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# --------------------
+# Android Specific (Generated files and local settings)
+# --------------------
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle
+/android/local.properties
+/android/**/build
+/android/**/.idea/
+/android/**/gradlew.bat.sha256
+/android/**/gradlew.sha256
+
+# Keystore/Signing files (CRITICAL SECURITY)
+# Tambahkan baris di bawah jika Anda menyimpan berkas kunci signing Android di folder ini.
+# *.keystore
+# *.jks
+# *key.properties
+
+# --------------------
+# iOS Specific (Generated files and local settings)
+# --------------------
+# CocoaPods dependencies (generated, can be rebuilt)
+/ios/Pods/
+/ios/.symlinks/
+
+# Xcode build output and cache
+/ios/DerivedData/
+/ios/Flutter/App.framework
+/ios/Flutter/flutter_assets
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
